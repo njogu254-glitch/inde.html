@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Njogu Mugo | Tech Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 { font-size: 2.5rem; }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .project {
+      background: #fff;
+      margin: 1rem 0;
+      padding: 1rem;
+      border-left: 5px solid #1a1a1a;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #1a1a1a;
+      color: #fff;
+    }
+    .social-links a {
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Njogu Mugo</h1>
+    <p>Tech Enthusiast | Ethical Hacker | Developer in Progress</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm Njogu Mugo, a passionate tech explorer from Kenya. I’m currently learning ethical hacking, website and app development, and back-end technologies to become a full-stack developer. I believe in using tech power to improve lives and strengthen digital security.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Personal Portfolio Website</h3>
+      <p>This very website is my starting point. Built with HTML and CSS to showcase my learning journey.</p>
+    </div>
+    <div class="project">
+      <h3>Python Automation Script</h3>
+      <p>A script that automates file organization in Windows — available on GitHub soon.</p>
+    </div>
+    <div class="project">
+      <h3>Coming Soon: Android App</h3>
+      <p>Currently working on an Android app to support my ethical hacking and testing skills.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:njogu.mugo020@email.com">njogu.mugo020@email.com</a></p>
+    <p>GitHub: <a href="https://github.com/njogu254-glitch/inde.html/releases/new" target="_blank">@mygithub</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/njogu-mugo-392b13298/" target="_blank">@mylinkedin</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Njogu Mugo. Built with passion and purpose.</p>
+    <div class="social-links">
+      <a href="https://github.com/njogu254-glitch/inde.html/releases/new">GitHub</a>
+      <a href="https://www.linkedin.com/in/njogu-mugo">LinkedIn</a>
+    </div>
+  </footer>
+</body>
+</html>
